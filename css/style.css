@@ -1,3 +1,28 @@
-style{
-  
+.body {
+  display: grid; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+
+}
+
+.jumbotron {
+
+
+}
+
+.container {
+
+
+}
+
+.card {
+  display: flex;
+  flex-direction:column ;
+  align-items: center; 
+}
+
+.footer {
+
 }
