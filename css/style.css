@@ -1,27 +1,75 @@
 .body {
   display: grid; 
+  display: flex;
+  background-color: rgb(246, 232, 214);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.navbar {
 
+
+.navbar {
+background-color: #069157;  
+font-size: large;
+font-style: normal;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(73, 4, 4);
+align-items: center
+}
+
+.btn {
+background-color: green ;
+display: inline-block;
+
+
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color:darkgreen;
+    border-color: #000b06;
 }
 
 .jumbotron {
-
+background-image: url(../images/);
+background-size: rgb(205, 245, 205);
+background-repeat: no-repeat;
+display: flex;
+align-items: center;
+justify-content: center;flex-direction: column;
+color: rgb(66, 38, 1);
 
 }
 
-.container {
-
-
+.container-fluid {
+width: 100%;
+padding: 15%;
+margin-right: auto;
+margin-left:auto ;
 }
 
 .card {
   display: flex;
   flex-direction:column ;
   align-items: center; 
+  width: 18rem;
 }
+.cardContainer {
+text-align: center;
+}
+
+.p {
+font: 100;
+}
+.dropdown{
+  
+}
+
 
 .footer {
 
