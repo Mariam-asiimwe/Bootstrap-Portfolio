@@ -36,7 +36,6 @@ display: inline-block;
 }
 
 .jumbotron {
-background-image: url(../images/);
 background-size: rgb(205, 245, 205);
 background-repeat: no-repeat;
 display: flex;
